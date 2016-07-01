@@ -1,0 +1,25 @@
+{
+  "name": "rollup-startup",
+  "version": "0.0.1",
+  "description": "a starter for rollupjs and typescript. Ava for testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server -c bs.config.json & rollup -c -w",
+    "test": "ava"
+  },
+  "repository": "https://github.com/JoshMilo/jubilant-system.git",
+  "keywords": [
+    "phaser"
+  ],
+  "author": "Josh Milo",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "lite-server": "^2.2.2",
+    "rollup-plugin-typescript": "^0.7.6"
+  },
+  "dependencies": {
+    "rollup": "^0.33.0",
+    "rollup-watch": "^2.4.0"
+  }
+}
